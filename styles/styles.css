@@ -1,0 +1,10 @@
+#container {
+  height: 500px;
+  width: 400px;
+  background-color: #ff0000;
+  margin: 0 auto;
+}
+
+#button {
+  margin-left: 35%;
+}
