@@ -1,0 +1,10 @@
+const kelvin = '303';
+// kelvin is a constant variable for this project
+const celcius = kelvin - 273; 
+// subtracting 273 from celcius
+let fahrenheit = celcius * (9 / 5) + 32;
+// calculating fahrenheit to celcius
+fahrenheit = Math.floor(fahrenheit);
+//  this rounds down our answer
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
